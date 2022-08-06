@@ -1,0 +1,98 @@
+  .cardtitle{
+    font-size:1.7rem;
+    line-height:2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+                                /* FOR STRIPE CARD  */
+  /* .card{
+    width:100%;
+    max-width:22rem;
+    min-height:15rem;
+    position:relative;
+    background-color:white;
+    border:1px solid #eee;
+    padding: 0.5rem 0.5rem 0.5rem 3rem;
+    box-shadow: 1rem 0 1.5rem -1.5rem
+     rgba(0,0,0,0.2);
+  }
+  .card:before{
+    width:2rem;
+    height:105%;
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(#fc87da 5%, #cb94ef 100%);
+    left: 0.5rem;
+    top: -2.5%
+  }  */
+  
+
+
+                            /* FOR ASYMMETRIC CARD */
+  /* .card{
+    width:100%;
+    max-width:22rem;
+    min-height:15rem;
+    position:relative;
+    background-color:white;
+    padding: 1rem;
+    margin: 0.8rem;
+    border-radius: 0 7rem;
+    box-shadow: 0 -4px 4px #fc87da, 0 4px 4px #41e0e7;
+  } */
+  
+
+
+                            /* FOR ROTATED CARD */
+  .card{
+    width:100%;
+    max-width:22rem;
+    min-height:15rem;
+    position:relative;
+    background-color:white;
+    padding: 1rem;
+    margin: 1.5rem 1.2rem;
+    box-shadow: 0 0 1rem -0.5rem rgba(0,0,0,0.5);
+  }
+  .card:before{
+    content:"";
+    width:100%;
+    height:100%;
+    background-color: #28f6c2;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    transform: rotate(6deg);
+  }
+  
+
+
+                            /* FOR SKEWED CARD */
+  /* .card{
+    width:100%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    max-width:22rem;
+    min-height:15rem;
+    position:relative;
+    background-color:white;
+  }
+  .card:before, .card:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    z-index:-1;
+    top:0;
+    transform: skew(10deg);
+  }
+  .card:before{
+    width:116%;
+    left: -8%;
+    background-image:linear-gradient(#cb94ef 0%, #83b8f1 50%, #41e0e7 100%);
+  }
+  .card:after{
+    width:112%;
+    left:-6%;
+    background-color: #fff;
+  } */
